@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>CLASS MARKSHEET</h1>
+        <form>
+            <div class="form-group">
+                <label for="name"><b>Họ tên</b></label>
+                <input type="text" id="name" placeholder="Nhập Họ Tên" required>
+                <span class="erro_name"></span>
+            </div>
+
+            <div class="form-group1">
+                <label for="math"><b>Điểm Toán</b></label>
+                <input type="text" id="math" placeholder="Nhập Điểm Toán" required>
+                <span class="erro_math"></span>
+            </div>
+
+            <div class="form-group2">
+                <label for="physical"><b>Điểm lý</b></label>
+                <input type="text" id="physical" placeholder="Nhập Điểm Lý" required>
+                <span class="erro_physical"></span>
+            </div>
+            <div class="form-group3">
+                <label for="chemistry"><b>Điểm Hóa</b></label>
+                <input type="text" id="chemistry" placeholder="Nhập Điểm Hóa" required>
+                <span class="erro_chemistry"></span>
+            </div>
+
+            <span class="erro_find"></span>
+
+
+
+            <button type="button" id="nhap">Nhập</button>
+            <button type="button" id="remove">Xóa</button>
+
+            <table style="width:100%">
+                <tr>
+                    <th style="width:10%">STT</th>
+                    <th style="width:25%">Họ tên</th>
+                    <th style="width:15%">Toán</th>
+                    <th style="width:15%">Lý</th>
+                    <th style="width:15%">Hóa</th>
+                    <th style="width:15%">Trung Bình</th>
+
+
+                </tr>
+            </table>
+
+            <button type="button" id="tinhDiemTB">Tính điểm trung bình</button>
+            <button type="button" id="xacDinhHSG">Xác định học sinh giỏi</button>
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
